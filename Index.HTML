@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Watt: Heritage Exhibition 2026</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #8e44ad;
+            --accent: #d35400;
+            --text: #333;
+            --light-bg: #f4f4f9;
+        }
+
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            padding: 0; 
+            margin: 0; 
+            background-color: #d1d8e0; 
+            color: var(--text); 
+        }
+
+        .container { 
+            max-width: 1000px; 
+            margin: 30px auto; 
+            background: white; 
+            box-shadow: 0 0 50px rgba(0,0,0,0.2);
+            display: grid;
+            grid-template-columns: 300px 1fr;
+        }
+
+        /* Left Sidebar Styling */
+        .sidebar {
+            background-color: var(--primary);
+            color: white;
+            padding: 40px 25px;
+        }
+
+        .student-card {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .sidebar h3 { color: var(--secondary); text-transform: uppercase; font-size: 1em; margin-top: 30px; }
+
+        /* Main Content Styling */
+        .main-content { padding: 50px; }
+
+        header { border-bottom: 5px solid var(--primary); margin-bottom: 30px; padding-bottom: 20px; }
+        
+        h1 { margin: 0; font-size: 2.5em; color: var(--primary); line-height: 1.1; }
+        .tagline { font-size: 1.2em; color: var(--accent); font-weight: bold; margin-top: 10px; }
+
+        h2 { color: var(--primary); border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 40px; }
+        
+        .feature-box {
+            display: flex;
+            gap: 20px;
+            background: var(--light-bg);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .stat-circle {
+            background: var(--secondary);
+            color: white;
+            min-width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.8em;
+        }
+
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th { background: var(--primary); color: white; padding: 12px; text-align: left; }
+        td { padding: 12px; border: 1px solid #ddd; }
+        tr:nth-child(even) { background: #f9f9f9; }
+
+        .legacy-section {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 8px;
+            border-right: 5px solid #ffc107;
+        }
+
+        footer { text-align: center; padding: 20px; font-size: 0.8em; color: #777; }
+
+        @media (max-width: 768px) {
+            .container { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+        <div class="student-card">
+            <strong>EXHIBITOR DETAILS</strong><br><br>
+            Name: Yaksh Thakur<br>
+            Class: 8 B<br>
+            Roll No: 41<br>
+            House: Bhabha
+        </div>
+
+        <h3>Quick Facts</h3>
+        <p><strong>Born:</strong> Jan 19, 1736</p>
+        <p><strong>Died:</strong> Aug 25, 1819</p>
+        <p><strong>Nationality:</strong> Scottish</p>
+        <p><strong>Famous For:</strong> Separate Condenser, Rotary Motion, Horsepower.</p>
+
+        <h3>Did You Know?</h3>
+        <p style="font-size: 0.85em; opacity: 0.8;">Watt didn't actually "invent" the steam engine; he improved the Newcomen engine so significantly that he made it practical for the world to use!</p>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h1>James Watt Steam Engine</h1>
+            <div class="tagline">Heritage Exhibition 2026: A Journey Through Industrial History</div>
+        </header>
+
+        <section>
+            <h2>I. The Problem: Efficiency</h2>
+            <p>In the early 18th century, the <strong>Newcomen Atmospheric Engine</strong> was used to pump water from mines. However, it was incredibly wasteful. It required cooling the entire cylinder with water after every stroke, which meant the cylinder had to be reheated for the next stroke—wasting massive amounts of coal.</p>
+            
+            <div class="feature-box">
+                <div class="stat-circle">75%<br>Savings</div>
+                <div>
+                    <strong>The Solution:</strong> In 1765, while walking across Glasgow Green, Watt had a "Eureka" moment. He realized that if the steam was condensed in a <em>separate container</em>, the cylinder could stay hot all the time.
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>II. Mechanical Masterpieces</h2>
+            <p>Watt's engine was a collection of brilliant mechanical solutions. Here are the most significant:</p>
+            <ul>
+                <li><strong>The Governor:</strong> A centrifugal device that automatically controlled the speed of the engine, preventing it from running too fast and exploding.</li>
+                <li><strong>Double-Acting Engine:</strong> Watt designed the piston to be pushed by steam from <em>both</em> sides, doubling the power output.</li>
+                <li><strong>The Indicator:</strong> A pressure gauge that allowed engineers to "see" what was happening inside the cylinder for the first time.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>III. Performance Comparison</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Newcomen (Pre-1760)</th>
+                        <th>Watt (Post-1776)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Thermal Efficiency</td>
+                        <td>~0.5%</td>
+                        <td>~3.0% (Massive improvement)</td>
+                    </tr>
+                    <tr>
+                        <td>Applications</td>
+                        <td>Mining only</td>
+                        <td>Cotton Mills, Distilleries, Paper Mills</td>
+                    </tr>
+                    <tr>
+                        <td>Motion Type</td>
+                        <td>Up-and-Down only</td>
+                        <td>Continuous Rotary Motion</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>IV. Legacy & The Modern World</h2>
+            <div class="legacy-section">
+                <p>The Watt engine was the catalyst for the <strong>Industrial Revolution</strong>. It moved manufacturing from the countryside (which relied on water wheels) into the cities. This led to the growth of modern urban life, the railway system, and eventually, the electric power plants we use today.</p>
+                <p><strong>In Science:</strong> In 1882, the British Association for the Advancement of Science named the unit of power the <strong>"Watt"</strong> in his memory. Every time you look at a 60W lightbulb, you are seeing James Watt's heritage.</p>
+            </div>
+        </section>
+
+        <footer>
+            Prepared for Bhabha House Heritage Project &bull; May 2026
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>
